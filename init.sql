@@ -1,0 +1,1 @@
+CREATE TABLE "user" ("id" serial PRIMARY KEY, "username" VARCHAR (64) UNIQUE NOT NULL, "password" VARCHAR (64) NOT NULL, "mail" VARCHAR (355) UNIQUE NOT NULL, "avatarId" INT NOT NULL);
